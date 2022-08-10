@@ -26,18 +26,18 @@ const options = {
         components:{
             securitySchemes:{
                 bearerAuth:{
-                    type: "http",
+                    type: "https",
                     scheme: "bearer",
                     bearerFormat: "JWT"
 
-                }
+                } 
             }
         },
        
             servers: [{
-                url:  "http://localhost:3000"
+                url:  "https://parcel-order-app.herokuapp.com/"
             },
-        ],
+        ], 
            
         
     },
